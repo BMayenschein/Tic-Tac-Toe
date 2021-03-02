@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+.board-container {
+    height: 306px;
+    width: 306px;
+}
+.board {
+    height: 4fr;
+    width: 4fr;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    color: grey;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px black solid;
+    text-align: center;
+}
+
+.box:hover {
+    background: burlywood;
+    cursor: pointer;
+}
